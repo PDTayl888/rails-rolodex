@@ -1,0 +1,21 @@
+<h1>ROLODEX</h1>
+<%= form_with scope: :rolodex, local: true do |form| %>
+  <p>
+    <%= form.label :name %><br>
+    <%= form.text_field :text %>
+  </p>
+ 
+  <p>
+    <%= form.label :address %><br>
+    <%= form.text_area :text %>
+  </p>
+
+  <p>
+    <%= form.label :phone_number %><br>
+    <%= form.text_field :text %>
+  </p>
+ 
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>

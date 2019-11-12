@@ -1,0 +1,3 @@
+class FindpersonController < ApplicationController
+    
+end
